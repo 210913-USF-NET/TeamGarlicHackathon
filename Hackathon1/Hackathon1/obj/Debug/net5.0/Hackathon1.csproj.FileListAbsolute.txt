@@ -132,4 +132,3 @@ C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Hackathon1
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Hackathon1\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Hackathon1\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Hackathon1\obj\Debug\net5.0\Razor\Views\Video\Index.cshtml.g.cs
-C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Hackathon1\obj\Debug\net5.0\Razor\Views\Video\Create.cshtml.g.cs

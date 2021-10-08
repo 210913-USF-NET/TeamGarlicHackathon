@@ -21,7 +21,7 @@
     //This creates the youtube player.
     var player;
     //Temporary ID for the video. Once we have the randomizer set up I will call it here.
-    var id = 'rJTw_LmDS4Y';
+    var id = @ViewData["Link"];
     function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
             height: '390',

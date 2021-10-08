@@ -18,5 +18,7 @@ namespace BL
 
 
         List<ModelVideo> GetVideos();
+        string GetId(string link);
+        int FindEquals(string link);
     }
 }
