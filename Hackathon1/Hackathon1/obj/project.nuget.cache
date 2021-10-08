@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qoRzpNrXAhk7qqGsw5SNi6fFV17y/UkMw3kBze27dQT9AggpCyul1ciKI23Qk7Y8FpvpfNDC4vH3XGSeekBHrA==",
+  "dgSpecHash": "YP4LfBdoLix+UiGZpj408Kioa0Mrt/H3khJYzZq6IdluPMfqF9VEGxvD7TqfjAqLKHUJYMTmNTfUvyqIDqrZQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\Hackathon1\\Hackathon1.csproj",
+  "projectFilePath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\Hackathon1\\Hackathon1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Garrett\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Garrett\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
