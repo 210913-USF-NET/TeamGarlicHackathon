@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon1", "Hackathon1\Ha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hackathon1", "Hackathon1", "{56356269-8263-4692-B54D-A4CBBC4855CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Hackathon1\Models\Models.csproj", "{D436B5D7-DBFB-49C8-9BD4-AE576A37BE7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D436B5D7-DBFB-49C8-9BD4-AE576A37BE7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
