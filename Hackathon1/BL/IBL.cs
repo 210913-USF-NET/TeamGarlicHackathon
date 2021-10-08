@@ -8,5 +8,11 @@ namespace BL
 {
     public interface IBL
     {
+        /// <summary>
+        /// Takes in a list of strings and returns a random string from the list
+        /// </summary>
+        /// <param name="strings"></param>
+        /// <returns></returns>
+        string RandomString(List<string> strings);
     }
 }
