@@ -21,5 +21,12 @@ namespace BL
         /// <param name="link"></param>
         /// <returns></returns>
         int FindEquals(string link);
+
+        /// <summary>
+        /// Takes in a string and returns a new string of everything after "=". Calls FindEquals(link)
+        /// </summary>
+        /// <param name="link"></param>
+        /// <returns></returns>
+        string GetId(string link);
     }
 }
