@@ -706,11 +706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\Garrett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\BL\\obj\\",
+      "outputPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -733,8 +733,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\DL\\DL.csproj": {
-              "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\DL\\DL.csproj"
+            "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\DL\\DL.csproj": {
+              "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\DL\\DL.csproj"
             }
           }
         }

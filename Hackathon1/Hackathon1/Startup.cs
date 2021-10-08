@@ -8,6 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BL;
+using DL;
+using Microsoft.EntityFrameworkCore;
 
 namespace Hackathon1
 {
@@ -24,6 +27,11 @@ namespace Hackathon1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<HackDBContext>(options =>
+            options.UseNpgsql(Configuration.GetConnectionString("HackDB")));
+
+            services.AddScoped<IRepo, DBRepo>();
+            services.AddScoped<IBL, VidBL>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
