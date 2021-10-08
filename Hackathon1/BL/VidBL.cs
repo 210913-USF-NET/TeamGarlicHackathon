@@ -1,4 +1,5 @@
 ﻿using DL;
+using Models;
 using System;
 using System.Collections.Generic;
 
@@ -13,6 +14,12 @@ namespace BL
         {
             _repo = repo;
         }
+
+        public List<ModelVideo> GetVideos()
+        {
+            return _repo.GetVideos();
+        }
+
 
             public string RandomString(List<string> strings)
         {

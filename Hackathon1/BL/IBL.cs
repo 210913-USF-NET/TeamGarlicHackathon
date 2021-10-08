@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,8 @@ namespace BL
         /// <param name="strings"></param>
         /// <returns></returns>
         string RandomString(List<string> strings);
+
+
+        List<ModelVideo> GetVideos();
     }
 }
