@@ -227,6 +227,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Models": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
         },
         "compile": {
@@ -234,6 +235,16 @@
         },
         "runtime": {
           "bin/placeholder/DL.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
         }
       }
     }
@@ -691,11 +702,17 @@
       "type": "project",
       "path": "../DL/DL.csproj",
       "msbuildProject": "../DL/DL.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DL >= 1.0.0"
+      "DL >= 1.0.0",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -735,6 +752,9 @@
           "projectReferences": {
             "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\DL\\DL.csproj": {
               "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\DL\\DL.csproj"
+            },
+            "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\TeamGarlicHackathon\\Hackathon1\\Models\\Models.csproj"
             }
           }
         }

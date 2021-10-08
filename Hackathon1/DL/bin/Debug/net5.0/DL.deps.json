@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Design": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.10",
+          "Models": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
         },
         "runtime": {
@@ -216,7 +217,12 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0": {}
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -385,6 +391,11 @@
       "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
       "path": "system.runtime.compilerservices.unsafe/4.6.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

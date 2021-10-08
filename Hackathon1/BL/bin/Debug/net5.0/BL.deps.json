@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "BL/1.0.0": {
         "dependencies": {
-          "DL": "1.0.0"
+          "DL": "1.0.0",
+          "Models": "1.0.0"
         },
         "runtime": {
           "BL.dll": {}
@@ -190,10 +191,16 @@
       "DL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Models": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
         },
         "runtime": {
           "DL.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
         }
       }
     }
@@ -338,6 +345,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
