@@ -1,5 +1,8 @@
 ﻿using DL;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace BL
 {
@@ -52,6 +55,21 @@ namespace BL
            }
            System.Console.WriteLine("invalid link");
            return -1;
+        }
+
+          public string GetId(string link)
+        {
+            int index = FindEquals(link);
+
+            var cutlink = new StringBuilder();
+
+            for(int i = index + 1; i < link.Length; i++)
+            {
+                cutlink.Append(link[i]);
+            }
+            string output = cutlink.ToString();
+            return output;
+        
         }
     }
 }
