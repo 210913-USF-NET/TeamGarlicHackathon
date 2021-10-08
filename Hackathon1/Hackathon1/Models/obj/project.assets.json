@@ -8,20 +8,28 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dan\\.nuget\\packages\\": {}
+    "C:\\Users\\Garrett\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dan\\Desktop\\Hackathon\\Hackathon1\\Hackathon1\\Mods\\Mods.csproj",
-      "projectName": "Mods",
-      "projectPath": "C:\\Users\\Dan\\Desktop\\Hackathon\\Hackathon1\\Hackathon1\\Mods\\Mods.csproj",
-      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dan\\Desktop\\Hackathon\\Hackathon1\\Hackathon1\\Mods\\obj\\",
+      "projectUniqueName": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\Hackathon1\\Models\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\Hackathon1\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\Garrett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Garrett\\Documents\\TrainerCode\\hackathon\\Hackathon1\\Hackathon1\\Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Garrett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
