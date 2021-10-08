@@ -39,5 +39,19 @@ namespace BL
 
             return strings[RandomIndex];
         }
+
+           public int FindEquals(string link)
+        {
+            
+           for(int i = 0; i < link.Length; i++)
+           {
+               if(link[i] == '=')
+               {
+                   return i;
+               }
+           }
+           System.Console.WriteLine("invalid link");
+           return -1;
+        }
     }
 }

@@ -14,5 +14,12 @@ namespace BL
         /// <param name="strings"></param>
         /// <returns></returns>
         string RandomString(List<string> strings);
+
+        /// <summary>
+        /// Takes in a string and returns the index of "="
+        /// </summary>
+        /// <param name="link"></param>
+        /// <returns></returns>
+        int FindEquals(string link);
     }
 }
