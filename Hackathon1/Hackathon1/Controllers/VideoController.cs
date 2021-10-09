@@ -19,15 +19,22 @@ namespace Hackathon1.Controllers
         // GET: VideoController
         public ActionResult Index()
         {
+            System.Diagnostics.Debug.WriteLine("inside video controller index");
             List<ModelVideo> allvids = _bl.GetVideos();
             List<string> vids = new List<string>();
             foreach (ModelVideo vid in allvids)
             {
-                vids.Append(vid.Vid);
+                vids.Add(vid.Vid);
             }
-            
+            System.Diagnostics.Debug.WriteLine("inside video controller list of vid strings created");
+            for (int i = 0; i < vids.Count; i++)
+            {
+                System.Diagnostics.Debug.WriteLine($"vid {i} is {vids[i]}");
+            }
+
             string videoplay = _bl.GetId(_bl.RandomString(vids));
             @ViewData["Link"] = videoplay;
+
             return View();
         }
 

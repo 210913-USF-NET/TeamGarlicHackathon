@@ -10,7 +10,7 @@
 <div class="centered-div">
     <div id="player"></div>
 </div>
-
+<p>testing</p>
 <script>
     var tag = document.createElement('script');
 
@@ -21,12 +21,12 @@
     //This creates the youtube player.
     var player;
     //Temporary ID for the video. Once we have the randomizer set up I will call it here.
-    var id = @ViewData["Link"];
+    var a = @ViewData["Link"]; 
     function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
             height: '390',
             width: '640',
-            videoId: id,
+            videoId: a,
             playerVars: {
                 'playsinline': 1
             },

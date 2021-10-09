@@ -16,7 +16,7 @@ namespace BL
         /// <returns></returns>
         string RandomString(List<string> strings);
 
-<<<<<<< HEAD
+
         /// <summary>
         /// Takes in a string and returns the index of "="
         /// </summary>
@@ -30,11 +30,10 @@ namespace BL
         /// <param name="link"></param>
         /// <returns></returns>
         string GetId(string link);
-=======
+
 
         List<ModelVideo> GetVideos();
-        string GetId(string link);
-        int FindEquals(string link);
->>>>>>> 572da0654e57c53c8ad7bbefe42c836e6d0a3f29
+        
+
     }
 }
