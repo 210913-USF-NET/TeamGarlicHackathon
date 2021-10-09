@@ -32,6 +32,7 @@ namespace DL
 
         public List<ModelVideo> GetVideos()
         {
+            System.Diagnostics.Debug.WriteLine("inside db getvideos");
             return _context.Vids.Select(
                 video => new ModelVideo()
                 {

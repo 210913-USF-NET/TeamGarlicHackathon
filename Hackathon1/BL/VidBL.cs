@@ -2,6 +2,9 @@
 using Models;
 using System;
 using System.Collections.Generic;
+
+using System.Linq;
+
 using System.Text;
 
 namespace BL
@@ -18,19 +21,20 @@ namespace BL
 
         public List<ModelVideo> GetVideos()
         {
+            System.Diagnostics.Debug.WriteLine("inside BL get videos");
             return _repo.GetVideos();
         }
 
 
             public string RandomString(List<string> strings)
         {
-            Console.WriteLine("seeding rng");
+            System.Diagnostics.Debug.WriteLine("seeding rng");
             Random rng = new Random();
-            System.Console.WriteLine("rng seeded");
+            System.Diagnostics.Debug.WriteLine("rng seeded");
             int min = 0;
             int max = strings.Count;
             //minimum is inclusive, maximum is exclusive
-            System.Console.WriteLine("generating index");
+            System.Diagnostics.Debug.WriteLine("generating chosen video index");
             int RandomIndex = rng.Next(min, max);
             
             bool isvalid;
@@ -44,10 +48,15 @@ namespace BL
 
                 }
             } while (!isvalid);
-           
 
+            System.Diagnostics.Debug.WriteLine("sending chosen video index");
             return strings[RandomIndex];
         }
+
+
+      
+
+          
 
         public int FindEquals(string link)
         {
@@ -69,7 +78,11 @@ namespace BL
 
             var cutlink = new StringBuilder();
 
+
+           
+
             for (int i = index + 1; i < link.Length; i++)
+
             {
                 cutlink.Append(link[i]);
             }

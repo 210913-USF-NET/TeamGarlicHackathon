@@ -10,3 +10,15 @@ C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Models\obj
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Models\obj\Debug\net5.0\Models.dll
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Models\obj\Debug\net5.0\ref\Models.dll
 C:\Users\Garrett\Documents\TrainerCode\TeamGarlicHackathon\Hackathon1\Models\obj\Debug\net5.0\Models.pdb
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\bin\Debug\net5.0\Models.deps.json
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\bin\Debug\net5.0\Models.dll
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\bin\Debug\net5.0\ref\Models.dll
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\bin\Debug\net5.0\Models.pdb
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.csproj.AssemblyReference.cache
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.AssemblyInfo.cs
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.dll
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\ref\Models.dll
+C:\Users\Dan\Desktop\Hackathon\Hackathon1\Models\obj\Debug\net5.0\Models.pdb
